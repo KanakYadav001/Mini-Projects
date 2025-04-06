@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  height: 400px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+button {
+  border: none;
+  height: 3em;
+  width: 5em;
+  background-color: rgb(4, 152, 152);
+  color: white;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+button:active {
+  scale: 1.1;
+}/*# sourceMappingURL=index.css.map */
