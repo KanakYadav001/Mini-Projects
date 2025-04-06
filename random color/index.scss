@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap : 20px ;
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    border : solid 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: block;
+    
+ 
+   
+
+}
+button{
+    background-color: rgb(131, 143, 255);
+     border : none;
+     height: 50px;
+     width: 200px;
+     border-radius: 20px;
+     display: block;
+   }
+
+   @media (min-width: 1020px){
+    div{
+        height: 400px;
+        width: 500px;
+    }
+   }
